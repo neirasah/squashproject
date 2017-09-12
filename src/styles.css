@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background:#000000;
+  color: #FFFFFF;
+}
+a:hover{
+  text-decoration:none
+}
+
+li {
+  font-size: large;  
+  }
+
+  div.panel-heading { 
+  font-size: x-large; 
+  }
+  .well {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.hoverwell {
+    background-color: #BBFAB1;
+    
+  }
+  
+  .hoverwell:hover {
+    background-color: #AAFB92;
+    cursor: pointer;
+  }
+  
+  .container {
+    padding-top: 10px;
+   
+  }
+  
+  .pointable {
+    cursor: pointer;
+  }
+  
+  button {
+    color: #555;
+  }
+  
+  [hidden] {
+    display: none !important;
+  }
+  
+  .toast-success {
+    background-color: #51a351;
+  }
+  .toast-error {
+    background-color: #bd362f;
+  }
+  .toast-info {
+    background-color: #2f96b4;
+  }
+  .toast-warning {
+    background-color: #f89406;
+  }

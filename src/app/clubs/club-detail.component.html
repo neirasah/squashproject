@@ -1,0 +1,31 @@
+<div class='panel panel-primary' *ngIf='club'>
+    <div class='panel-heading'>
+        {{pageTitle + ': ' + club.name}}
+         </div>
+         <div class="container">
+            <img [src]="club?.imageUrl" [alt]="club?.name" class="event-image">
+          
+            <div class="row">
+              <div class="col-md-11">
+                <h2>{{club?.name}} </h2>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-md-6">
+                <div><strong>Address:</strong> {{club?.address}}</div>
+                <div><strong>Courts#:</strong> {{club?.courtsNo}}</div>
+                <div><strong>Open:</strong> {{club?.open}}</div>
+              </div>
+            </div>
+          
+    
+        </div>  
+  
+  </div>
+  
+
+
+
+  
+     
